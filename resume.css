@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #0078d4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0078d4;
+    color: #fff;
+}
+
+.contact, .education, .experience {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.job h3 {
+    font-size: 20px;
+}
+
+/* Add a subtle animation */
+.job {
+    transition: transform 0.3s;
+}
+
+.job:hover {
+    transform: scale(1.03);
+}
